@@ -4,6 +4,12 @@
  * @author: Bernhard Lukassen
  */
 
-import Karte        from "./lib/karte/karte.mjs";
+import Karte            from "./lib/karte/karte.mjs";
+import components       from './@components';
 
-export default new Karte();
+const karte = new Karte();
+
+universe.addComponents(components);
+
+export default karte;
+
