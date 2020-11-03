@@ -3,7 +3,15 @@ Karte
 
 Naming and directory for Thoregon. The stellar map shows everything that is visible in the universe.
 
-Provides a browser for the universe
+Provides a browser for the universe.
+
+## Nameservice
+Private name directories with a owner (or more)
+invite others to use the directory (read/write)
+
+Metanameservice combining all used name services
+search order
+multiple results, select by user  
 
 ## Handles
 Unique names for arbitrary objects. A 'name' is always comprised of a namespace and a name.
@@ -47,8 +55,16 @@ KARTE comes with a UI Webcomponent to browse the Universe.
 The default view is inspired by OSX finder column mode with a preview.
 Works also on small screens (mobile).
 
+Unlock a path: Either the current User can decode or the user has a valid keypair.
+Supports also onlykey (2FA).
+
 There is also a graph browser with a hyperbolic view available.
  
 The bowsers uses meta information for proper display of objects, there also
 exists a 'raw' mode which shows the raw information in the distributed DB.
  
+### Firewall UI
+
+- lock pathes
+
+- admin peers
