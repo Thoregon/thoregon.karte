@@ -5,6 +5,8 @@ Naming and directory for Thoregon. The stellar map shows everything that is visi
 
 Provides a browser for the universe.
 
+The ultimate Browsing tool.
+
 ## Nameservice
 Private name directories with a owner (or more)
 invite others to use the directory (read/write)
