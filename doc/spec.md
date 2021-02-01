@@ -7,6 +7,8 @@ Provides a browser for the universe.
 
 The ultimate Browsing tool.
 
+TODO: rename to Galors
+
 ## Nameservice
 Private name directories with a owner (or more)
 invite others to use the directory (read/write)
